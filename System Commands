@@ -2,9 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Linux Commands Reference</title>
-    <style>
+    <title>Linux Commands as HTML</title>
+</head>
+<body>
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Linux Commands Reference&lt;/title&gt;
+    &lt;style&gt;
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
@@ -14,9 +22,6 @@
         }
         h1, h2 {
             color: #2c3e50;
-        }
-        h2 {
-            margin-top: 30px;
         }
         ul {
             list-style-type: none;
@@ -33,43 +38,46 @@
             padding: 2px 6px;
             border-radius: 4px;
         }
-    </style>
-</head>
-<body>
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
 
-    <h1>Linux Commands Reference</h1>
+    &lt;h1&gt;Linux Commands Reference&lt;/h1&gt;
 
-    <h2>💻 System Information</h2>
-    <ul>
-        <li><code>uname</code> - Print system information</li>
-        <li><code>uname -a</code> - All system information</li>
-        <li><code>uname -r</code> - Kernel release</li>
-        <li><code>uname -m</code> - Machine hardware name</li>
-        <li><code>uptime</code> - Show how long system has been running</li>
-        <li><code>date</code> - Display or set the system date/time</li>
-        <li><code>who</code> - Show who is logged on</li>
-        <li><code>whoami</code> - Print effective userid</li>
-        <li><code>id</code> - Print user and group IDs</li>
-        <li><code>which</code> - Locate a command in PATH</li>
-    </ul>
+    &lt;h2&gt;💻 System Information&lt;/h2&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;code&gt;uname&lt;/code&gt; - Print system information&lt;/li&gt;
+        &lt;li&gt;&lt;code&gt;uname -a&lt;/code&gt; - All system information&lt;/li&gt;
+        &lt;li&gt;&lt;code&gt;uname -r&lt;/code&gt; - Kernel release&lt;/li&gt;
+        &lt;li&gt;&lt;code&gt;uname -m&lt;/code&gt; - Machine hardware name&lt;/li&gt;
+        &lt;li&gt;&lt;code&gt;uptime&lt;/code&gt; - Show how long system has been running&lt;/li&gt;
+        &lt;li&gt;&lt;code&gt;date&lt;/code&gt; - Display or set the system date/time&lt;/li&gt;
+        &lt;li&gt;&lt;code&gt;who&lt;/code&gt; - Show who is logged on&lt;/li&gt;
+        &lt;li&gt;&lt;code&gt;whoami&lt;/code&gt; - Print effective userid&lt;/li&gt;
+        &lt;li&gt;&lt;code&gt;id&lt;/code&gt; - Print user and group IDs&lt;/li&gt;
+        &lt;li&gt;&lt;code&gt;which&lt;/code&gt; - Locate a command in PATH&lt;/li&gt;
+    &lt;/ul&gt;
 
-    <h2>👑 Privilege & Administration</h2>
-    <ul>
-        <li><code>sudo</code> - Execute command as superuser</li>
-        <li><code>su</code> - Switch user (or become superuser)</li>
-    </ul>
+    &lt;h2&gt;👑 Privilege & Administration&lt;/h2&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;code&gt;sudo&lt;/code&gt; - Execute command as superuser&lt;/li&gt;
+        &lt;li&gt;&lt;code&gt;su&lt;/code&gt; - Switch user (or become superuser)&lt;/li&gt;
+    &lt;/ul&gt;
 
-    <h2>⚡ System Control</h2>
-    <ul>
-        <li><code>shutdown</code> - Shutdown or restart system</li>
-        <li><code>reboot</code> - Reboot the system</li>
-    </ul>
+    &lt;h2&gt;⚡ System Control&lt;/h2&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;code&gt;shutdown&lt;/code&gt; - Shutdown or restart system&lt;/li&gt;
+        &lt;li&gt;&lt;code&gt;reboot&lt;/code&gt; - Reboot the system&lt;/li&gt;
+    &lt;/ul&gt;
 
-    <h2>📦 Package Management (Debian/Ubuntu)</h2>
-    <ul>
-        <li><code>apt</code> - Advanced Package Tool (modern)</li>
-        <li><code>apt-get</code> - APT package handling utility (legacy)</li>
-    </ul>
+    &lt;h2&gt;📦 Package Management (Debian/Ubuntu)&lt;/h2&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;code&gt;apt&lt;/code&gt; - Advanced Package Tool (modern)&lt;/li&gt;
+        &lt;li&gt;&lt;code&gt;apt-get&lt;/code&gt; - APT package handling utility (legacy)&lt;/li&gt;
+    &lt;/ul&gt;
 
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
 </body>
 </html>
