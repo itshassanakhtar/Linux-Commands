@@ -53,3 +53,4 @@ kill - Terminate processes
 nohup - Run command immune to hangups
 
 Here is my all commands okay
+(Linux)
