@@ -1,0 +1,25 @@
+# Linux Commands Reference
+
+## 💻 System Information
+- `uname` - Print system information
+- `uname -a` - All system information
+- `uname -r` - Kernel release
+- `uname -m` - Machine hardware name
+- `uptime` - Show how long system has been running
+- `date` - Display or set the system date/time
+- `who` - Show who is logged on
+- `whoami` - Print effective userid
+- `id` - Print user and group IDs
+- `which` - Locate a command in PATH
+
+## 👑 Privilege & Administration
+- `sudo` - Execute command as superuser
+- `su` - Switch user (or become superuser)
+
+## ⚡ System Control
+- `shutdown` - Shutdown or restart system
+- `reboot` - Reboot the system
+
+## 📦 Package Management (Debian/Ubuntu)
+- `apt` - Advanced Package Tool (modern)
+- `apt-get` - APT package handling utility (legacy)
