@@ -1,14 +1,14 @@
 🗂️ File System Navigation
 
-- `ls` - List directory contents
-- `cd` - Change directory
-- `pwd` - Print working directory
-- `mkdir` - Create directory
-- `rmdir` - Remove empty directory
+- ls - List directory contents
+- cd - Change directory
+- pwd - Print working directory
+- mkdir - Create directory
+- rmdir - Remove empty directory
 
 📁 File Operations
 
-- `rm` - Remove files/directories
+- rm - Remove files/directories
 - `cp` - Copy files/directories
 - `mv` - Move/rename files/directories
 - `touch` - Create empty file or update timestamp
