@@ -1,0 +1,54 @@
+## **🗂️ File System Navigation**
+
+- `ls` - List directory contents
+- `cd` - Change directory
+- `pwd` - Print working directory
+- `mkdir` - Create directory
+- `rmdir` - Remove empty directory
+
+## **📁 File Operations**
+
+- `rm` - Remove files/directories
+- `cp` - Copy files/directories
+- `mv` - Move/rename files/directories
+- `touch` - Create empty file or update timestamp
+- `ln` - Create links (hard/symbolic)
+- `cat` - Concatenate and display files
+- `zcat` - Display compressed files
+
+## **📄 File Viewing/Editing**
+
+- `vim` - Text editor (Vi Improved)
+- `head` - Show first lines of file
+- `tail` - Show last lines of file
+    - `tail -f` - Follow file as it grows
+- `less` - Page through files (better than `more`)
+- `more` - Page through files
+- `wc` - Word/line/character count
+- `cut` - Remove sections from lines
+- `tee` - Redirect output to multiple files
+
+## **🔍 Text Processing**
+
+- `sort` - Sort lines of text
+- `diff` - Compare files line by line
+- `clear` - Clear terminal screen
+
+## **🖥️ System Monitoring**
+
+- `df -h` - Disk space (human readable)
+- `du` - Disk usage
+- `ps` - Process status
+- `top` - Display Linux processes
+- `free` - Memory usage
+- `vmstat` - Virtual memory statistics
+
+## **🔗 Network & Remote**
+
+- `ssh` - Secure Shell client
+
+## **⚡ Process Management**
+
+- `fuser` - Identify processes using files/sockets
+- `kill` - Terminate processes
+- `nohup` - Run command immune to hangups
