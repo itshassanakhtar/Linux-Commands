@@ -1,4 +1,4 @@
-## **🗂️ File System Navigation**
+🗂️ File System Navigation
 
 - `ls` - List directory contents
 - `cd` - Change directory
@@ -6,7 +6,7 @@
 - `mkdir` - Create directory
 - `rmdir` - Remove empty directory
 
-## **📁 File Operations**
+📁 File Operations
 
 - `rm` - Remove files/directories
 - `cp` - Copy files/directories
@@ -16,7 +16,7 @@
 - `cat` - Concatenate and display files
 - `zcat` - Display compressed files
 
-## **📄 File Viewing/Editing**
+📄 File Viewing/Editing
 
 - `vim` - Text editor (Vi Improved)
 - `head` - Show first lines of file
@@ -28,13 +28,13 @@
 - `cut` - Remove sections from lines
 - `tee` - Redirect output to multiple files
 
-## **🔍 Text Processing**
+🔍 Text Processing
 
 - `sort` - Sort lines of text
 - `diff` - Compare files line by line
 - `clear` - Clear terminal screen
 
-## **🖥️ System Monitoring**
+🖥️ System Monitoring
 
 - `df -h` - Disk space (human readable)
 - `du` - Disk usage
@@ -43,11 +43,11 @@
 - `free` - Memory usage
 - `vmstat` - Virtual memory statistics
 
-## **🔗 Network & Remote**
+🔗 Network & Remote
 
 - `ssh` - Secure Shell client
 
-## **⚡ Process Management**
+⚡ Process Management
 
 - `fuser` - Identify processes using files/sockets
 - `kill` - Terminate processes
