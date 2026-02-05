@@ -1,25 +1,75 @@
-- `uname` - Print system information
-    - `uname -a` - All system information
-    - `uname -r` - Kernel release
-    - `uname -m` - Machine hardware name
-- `uptime` - Show how long system has been running
-- `date` - Display or set the system date/time
-- `who` - Show who is logged on
-- `whoami` - Print effective userid
-- `id` - Print user and group IDs
-- `which` - Locate a command in PATH
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linux Commands Reference</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        h2 {
+            margin-top: 30px;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        li {
+            background: #ecf0f1;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 6px;
+        }
+        code {
+            background: #dfe6e9;
+            padding: 2px 6px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
 
-## **👑 Privilege & Administration**
+    <h1>Linux Commands Reference</h1>
 
-- `sudo` - Execute command as superuser
-- `su` - Switch user (or become superuser)
+    <h2>💻 System Information</h2>
+    <ul>
+        <li><code>uname</code> - Print system information</li>
+        <li><code>uname -a</code> - All system information</li>
+        <li><code>uname -r</code> - Kernel release</li>
+        <li><code>uname -m</code> - Machine hardware name</li>
+        <li><code>uptime</code> - Show how long system has been running</li>
+        <li><code>date</code> - Display or set the system date/time</li>
+        <li><code>who</code> - Show who is logged on</li>
+        <li><code>whoami</code> - Print effective userid</li>
+        <li><code>id</code> - Print user and group IDs</li>
+        <li><code>which</code> - Locate a command in PATH</li>
+    </ul>
 
-## **⚡ System Control**
+    <h2>👑 Privilege & Administration</h2>
+    <ul>
+        <li><code>sudo</code> - Execute command as superuser</li>
+        <li><code>su</code> - Switch user (or become superuser)</li>
+    </ul>
 
-- `shutdown` - Shutdown or restart system
-- `reboot` - Reboot the system
+    <h2>⚡ System Control</h2>
+    <ul>
+        <li><code>shutdown</code> - Shutdown or restart system</li>
+        <li><code>reboot</code> - Reboot the system</li>
+    </ul>
 
-## **📦 Package Management (Debian/Ubuntu)**
+    <h2>📦 Package Management (Debian/Ubuntu)</h2>
+    <ul>
+        <li><code>apt</code> - Advanced Package Tool (modern)</li>
+        <li><code>apt-get</code> - APT package handling utility (legacy)</li>
+    </ul>
 
-- `apt` - Advanced Package Tool (modern)
-- `apt-get` - APT package handling utility (legacy)
+</body>
+</html>
