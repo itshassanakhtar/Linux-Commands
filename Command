@@ -52,5 +52,6 @@ fuser - Identify processes using files/sockets
 kill - Terminate processes
 nohup - Run command immune to hangups
 
-Here is My commands list
-(Commands)
+Here is my all commands okay
+(Linux)
+
