@@ -51,4 +51,4 @@
 
 - `fuser` - Identify processes using files/sockets
 - `kill` - Terminate processes
-- `nohup` - Run command immune to hangups
+-  nohup - Run command immune to hangups
