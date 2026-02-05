@@ -1,83 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Linux Commands as HTML</title>
-</head>
-<body>
-<pre>
-&lt;!DOCTYPE html&gt;
-&lt;html lang="en"&gt;
-&lt;head&gt;
-    &lt;meta charset="UTF-8"&gt;
-    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-    &lt;title&gt;Linux Commands Reference&lt;/title&gt;
-    &lt;style&gt;
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            background-color: #f9f9f9;
-            color: #333;
-            padding: 20px;
-        }
-        h1, h2 {
-            color: #2c3e50;
-        }
-        ul {
-            list-style-type: none;
-            padding-left: 0;
-        }
-        li {
-            background: #ecf0f1;
-            margin: 5px 0;
-            padding: 10px;
-            border-radius: 6px;
-        }
-        code {
-            background: #dfe6e9;
-            padding: 2px 6px;
-            border-radius: 4px;
-        }
-    &lt;/style&gt;
-&lt;/head&gt;
-&lt;body&gt;
+## 💻 System Information
+- `uname` - Print system information
+- `uname -a` - All system information
+- `uname -r` - Kernel release
+- `uname -m` - Machine hardware name
+- `uptime` - Show how long system has been running
+- `date` - Display or set the system date/time
+- `who` - Show who is logged on
+- `whoami` - Print effective userid
+- `id` - Print user and group IDs
+- `which` - Locate a command in PATH
 
-    &lt;h1&gt;Linux Commands Reference&lt;/h1&gt;
+## 👑 Privilege & Administration
+- `sudo` - Execute command as superuser
+- `su` - Switch user (or become superuser)
 
-    &lt;h2&gt;💻 System Information&lt;/h2&gt;
-    &lt;ul&gt;
-        &lt;li&gt;&lt;code&gt;uname&lt;/code&gt; - Print system information&lt;/li&gt;
-        &lt;li&gt;&lt;code&gt;uname -a&lt;/code&gt; - All system information&lt;/li&gt;
-        &lt;li&gt;&lt;code&gt;uname -r&lt;/code&gt; - Kernel release&lt;/li&gt;
-        &lt;li&gt;&lt;code&gt;uname -m&lt;/code&gt; - Machine hardware name&lt;/li&gt;
-        &lt;li&gt;&lt;code&gt;uptime&lt;/code&gt; - Show how long system has been running&lt;/li&gt;
-        &lt;li&gt;&lt;code&gt;date&lt;/code&gt; - Display or set the system date/time&lt;/li&gt;
-        &lt;li&gt;&lt;code&gt;who&lt;/code&gt; - Show who is logged on&lt;/li&gt;
-        &lt;li&gt;&lt;code&gt;whoami&lt;/code&gt; - Print effective userid&lt;/li&gt;
-        &lt;li&gt;&lt;code&gt;id&lt;/code&gt; - Print user and group IDs&lt;/li&gt;
-        &lt;li&gt;&lt;code&gt;which&lt;/code&gt; - Locate a command in PATH&lt;/li&gt;
-    &lt;/ul&gt;
+## ⚡ System Control
+- `shutdown` - Shutdown or restart system
+- `reboot` - Reboot the system
 
-    &lt;h2&gt;👑 Privilege & Administration&lt;/h2&gt;
-    &lt;ul&gt;
-        &lt;li&gt;&lt;code&gt;sudo&lt;/code&gt; - Execute command as superuser&lt;/li&gt;
-        &lt;li&gt;&lt;code&gt;su&lt;/code&gt; - Switch user (or become superuser)&lt;/li&gt;
-    &lt;/ul&gt;
-
-    &lt;h2&gt;⚡ System Control&lt;/h2&gt;
-    &lt;ul&gt;
-        &lt;li&gt;&lt;code&gt;shutdown&lt;/code&gt; - Shutdown or restart system&lt;/li&gt;
-        &lt;li&gt;&lt;code&gt;reboot&lt;/code&gt; - Reboot the system&lt;/li&gt;
-    &lt;/ul&gt;
-
-    &lt;h2&gt;📦 Package Management (Debian/Ubuntu)&lt;/h2&gt;
-    &lt;ul&gt;
-        &lt;li&gt;&lt;code&gt;apt&lt;/code&gt; - Advanced Package Tool (modern)&lt;/li&gt;
-        &lt;li&gt;&lt;code&gt;apt-get&lt;/code&gt; - APT package handling utility (legacy)&lt;/li&gt;
-    &lt;/ul&gt;
-
-&lt;/body&gt;
-&lt;/html&gt;
-</pre>
-</body>
-</html>
+## 📦 Package Management (Debian/Ubuntu)
+- `apt` - Advanced Package Tool (modern)
+- `apt-get` - APT package handling utility (legacy)
